@@ -1,0 +1,40 @@
+/**!
+ * BX Dynamix v1 - Make built in Wordpress a slideshow by hostile takeover.
+ * https://github.com/Kidkie/bx-dynamix
+ *
+ * Copyright 2014, Martin Ekelund - http://www.martinekelund.com
+ *
+ * Released under the MIT license - http://opensource.org/licenses/MIT
+
+ * Beneath you'll find custom stylesheet for styling the slideshow.
+ * Built upon Wordpress classes and ID's.
+ * Restyled some bxSlider for my own custom need.
+ */
+
+/* BX Dynamix Custom Styles
+---------------------------------------- */
+
+body {
+	font-family: 'Open Sans';
+	font-weight: 100;
+}
+
+.gallery-item {
+	text-align: center;
+}
+
+.gallery-caption {
+	display: inline-block;
+	background: #FFF;
+	padding: 10px 20px 10px 20px;
+	margin-left: -5px;
+}
+
+.bx-wrapper .bx-viewport {
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: none;
+	left: -5px;
+	background: #fff;
+}
