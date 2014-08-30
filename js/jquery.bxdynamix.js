@@ -42,13 +42,21 @@ jQuery(document).ready(function($){
 			// I want my images to center in case they're different height.
 			// This code extracts the image and adds it as a background.
 
+		    // Options:
+
+		    // Option1: This adds a img-tag instead of putting image in background.
+		    // good for responsive design. Add styles for handling captions in CSS-file.
+		    // $(this).append('<img src="'+image+'" />');
+		    
+		    // Option 2: This part puts image as background instead of img-tag.
 		    $(this).css('background-image', 'url(' + image + ')');
 		    $(this).css('background-repeat', 'no-repeat');
 		    $(this).css('background-position', 'center center');
+		    
 		    $(this).find('dt').remove();
 		});
 
-		// Setup bxSlider option. Find more of there at http://bxslider.com.
+		// Setup bxSlider option. Find more options at http://bxslider.com.
 
 		$(newGallery).bxSlider({
 			mode: 'horizontal',
