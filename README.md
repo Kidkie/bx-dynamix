@@ -10,9 +10,9 @@ The slideshow is built with bxSlider (http://bxslider.com/) from Steven Wandersk
 
 Background
 
-This project was created to make it easier for users to produce slideshows on the fly in Wordpress.
+This project was created to make it easier for users to produce slideshows on the fly by using default functions in Wordpress.
 
-* BXD was first inteded to be used with Bootstrap Carousel but later changed to bxSlider as it allows more options and feels steadier. If you still want to use it with Bootstrap Carousel, just modify the code to add carousel hooks instead (it works!).
+* BXD was first intended to be used with Bootstrap Carousel but later changed to bxSlider as it allows more options and feels steadier. If you still want to use it with Bootstrap Carousel, just modify the code to add carousel hooks instead (it works!).
 
 ==========
 
