@@ -1,5 +1,5 @@
-BX-Dynamix Version 1.0
-August 30 2014
+BX Dynamix Version 1.0 (BXD)
+Stockholm, August 30 2014
 
 Hooks into built in gallery function in Wordpress and replaces it with a slideshow.
 The slideshow is built with bxSlider (http://bxslider.com/) from Steven Wanderski.
@@ -12,13 +12,14 @@ Background
 
 This project was created to make it easier for users to produce slideshows on the fly in Wordpress.
 
-* BX Dynamix was first inteded to be used with Bootstrap Carousel but later changed to bxSlider as it allows more options and feels steadier. If you still want to use it with Bootstrap Carousel, just modify the code to add carousel hooks instead (it works!).
+* BXD was first inteded to be used with Bootstrap Carousel but later changed to bxSlider as it allows more options and feels steadier. If you still want to use it with Bootstrap Carousel, just modify the code to add carousel hooks instead (it works!).
 
 Version 1.0
 
  * BX Dynamix v1 only works with one slideshow per page/post
  * Multiple slideshows are planned to be included in future versions
- * If you install BX Dynamix on your Wordpress site it will replace the gallery function with a slideshow. Ie. default gallery functionality will stop working.
+ * If you install BXD on your Wordpress site it will replace the gallery function with a slideshow. Ie. default gallery functionality will stop working.
+ * This version of BXD extracts the image and adds it as a background of every slide item. This way of doing it removes the awesome responsive feature of bxSlider. I decided to do this as I wanted the pictures to center in the viewport, both vertically and horizontally. This can be removed with some skill. Might add this as a option in feature in future versions.
 
 How to handle Wordpress default gallery option
 
