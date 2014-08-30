@@ -23,7 +23,7 @@ Version 1.0
  * BX Dynamix v1 only works with one slideshow per page/post
  * Multiple slideshows are planned to be included in future versions
  * If you install BXD on your Wordpress site it will replace the gallery function with a slideshow. Ie. default gallery functionality will stop working.
- * This version of BXD extracts the image and adds it as a background of every slide item. This way of doing it removes the awesome responsive feature of bxSlider. I decided to do this as I wanted the pictures to center in the viewport, both vertically and horizontally. This can be removed with some skill. Might add this as a option in feature in future versions.
+ * This version of BXD extracts the image and adds it as a background of every slide item. This way of doing it removes the awesome responsive feature of bxSlider. I decided to do this as I wanted the pictures to center in the viewport, both vertically and horizontally. This can be removed with some skill. Might add this as a option in future versions.
 
 ==========
 
