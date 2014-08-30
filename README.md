@@ -18,7 +18,7 @@ Version 1.0
 
  * BX Dynamix v1 only works with one slideshow per page/post
  * Multiple slideshows are planned to be included in future versions
- * If you install BX Dynamix on your Wordpress site it will replace the gallery function with slideshow. Ie. default gallery functionality stop working.
+ * If you install BX Dynamix on your Wordpress site it will replace the gallery function with a slideshow. Ie. default gallery functionality will stop working.
 
 How to handle Wordpress default gallery option
 
