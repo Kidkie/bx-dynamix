@@ -44,3 +44,5 @@ As Wordpress only displays thumbnails in Gallery mode you have to add a filter t
 The demo
 
 I've tried to add as much descriptions and explanations to the code as possible. Check it out.
+
+ * Pictures in the demo was downloaded from freeimages.com.
