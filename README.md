@@ -1,5 +1,5 @@
-BX Dynamix Version 1.0 (BXD)
-Stockholm, August 30 2014
+#BX Dynamix Version 1.0 (BXD)
+####Stockholm, August 30 2014
 
 Hooks into built in gallery function in Wordpress and replaces it with a slideshow.
 The slideshow is built with bxSlider (http://bxslider.com/) from Steven Wanderski.
@@ -10,7 +10,7 @@ See BX Dynamix in action here: http://www.martinekelund.com/bxdynamix/
 
 ==========
 
-Background
+###Background
 
 This project was created to make it easier for users to produce slideshows on the fly by using default functions in Wordpress.
 
@@ -18,7 +18,7 @@ This project was created to make it easier for users to produce slideshows on th
 
 ==========
 
-Version 1.0
+###Version 1.0
 
  * BX Dynamix v1 only works with one slideshow per page/post
  * Multiple slideshows are planned to be included in future versions
@@ -28,7 +28,7 @@ Version 1.0
 
 ==========
 
-How to handle Wordpress default gallery option
+###How to handle Wordpress default gallery option
 
 As Wordpress only displays thumbnails in Gallery mode you have to add a filter to the functions.php. The code below replaces 'thumbnail' with 'medium' size images. You can manage default image sizes under Settings > Media in Wordpress Admin.
 
@@ -49,8 +49,10 @@ As Wordpress only displays thumbnails in Gallery mode you have to add a filter t
       
 ==========
 
-The demo
+##The demo
 
 I've tried to add as much descriptions and explanations to the code as possible. Check it out.
 
  * Pictures in the demo was downloaded from freeimages.com.
+
+Demo: http://www.martinekelund.com/bxdynamix/
