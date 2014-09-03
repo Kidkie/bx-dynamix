@@ -67,4 +67,4 @@ I've tried to add as much descriptions and explanations to the code as possible.
 
  * Pictures in the demo was downloaded from freeimages.com.
 
-Demo: http://www.martinekelund.com/bxdynamix/
+Demo: http://www.martinekelund.com/bxdynamix_v1.2/
