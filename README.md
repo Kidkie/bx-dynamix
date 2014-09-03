@@ -6,7 +6,7 @@ The slideshow is built with bxSlider (http://bxslider.com/) from Steven Wandersk
 
  * Tested with Wordpress Version 3.9.2 and Twenty Fourteen Theme v1.0
 
-See BX Dynamix in action here: http://www.martinekelund.com/bxdynamix/
+See BX Dynamix in action here: http://www.martinekelund.com/bxdynamix_v1.2/
 
 ==========
 
