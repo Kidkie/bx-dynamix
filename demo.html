@@ -49,20 +49,61 @@ add_filter( "shortcode_atts_gallery", "bx_dynamix_gallery_atts", 10, 3 );
 
 -->
 
-<section>
+<h1>BX Dynamix Gallery DEMO</h1>
 
+<section>
 	<article id="post-4" class="post-4 post type-post status-publish format-standard hentry category-uncategorized">
 		<header class="entry-header">
-			<h1 class="entry-title">BX Dynamix Gallery Example</h1>
-			<div class="entry-meta">
-				<span class="entry-date">
-					<a href="#" rel="bookmark"><time class="entry-date" datetime="2014-08-30T07:25:17+00:00">August 30, 2014</time></a></span>
-					<span class="byline"><span class="author vcard"><a class="url fn n" href="#" rel="author">Martin Ekelund</a></span>
-				</span>
-			</div><!-- .entry-meta -->
+			<h1 class="entry-title">Multiple Slideshows, #1</h1>
 		</header><!-- .entry-header -->
 		<div class="entry-content">
 			<div id="gallery-1" class="gallery galleryid-4 gallery-columns-2 gallery-size-medium"><dl class="gallery-item">
+				<dt class="gallery-icon landscape">
+					<a href="#"><img width="600" height="398" src="images/1385907_84565252.jpg_effected-600x398.jpg" class="attachment-medium" alt="Caption example. Lorem ipsum."></a>
+				</dt>
+					<dd class="wp-caption-text gallery-caption">
+					Caption example. Lorem ipsum.
+					</dd></dl><dl class="gallery-item">
+				<dt class="gallery-icon portrait">
+					<a href="#"><img width="450" height="600" src="images/1443247_41621041.jpg_effected-450x600.jpg" class="attachment-medium" alt="1443247_41621041.jpg_effected"></a>
+				</dt></dl><br style="clear: both"><dl class="gallery-item">
+				<dt class="gallery-icon landscape">
+					<a href="#"><img width="600" height="398" src="images/1446284_81962038.jpg_effected-600x398.jpg" class="attachment-medium" alt="Caption example. Dolor sit amet."></a>
+				</dt>
+					<dd class="wp-caption-text gallery-caption">
+					Caption example. Dolor sit amet.
+					</dd></dl><dl class="gallery-item">
+				<dt class="gallery-icon portrait">
+					<a href="#"><img width="301" height="600" src="images/1435989_20523265.jpg_effected-301x600.jpg" class="attachment-medium" alt="1435989_20523265.jpg_effected"></a>
+				</dt></dl><br style="clear: both"><dl class="gallery-item">
+				<dt class="gallery-icon landscape">
+					<a href="#"><img width="600" height="424" src="images/1082768_30808661.jpg_effected-600x424.jpg" class="attachment-medium" alt="1082768_30808661.jpg_effected"></a>
+				</dt></dl><dl class="gallery-item">
+				<dt class="gallery-icon landscape">
+					<a href="#"><img width="600" height="398" src="images/1445967_96114307.jpg_effected-600x398.jpg" class="attachment-medium" alt="Caption example. Sit amet."></a>
+				</dt>
+					<dd class="wp-caption-text gallery-caption">
+					Caption example. Sit amet.
+					</dd></dl><br style="clear: both"><dl class="gallery-item">
+				<dt class="gallery-icon portrait">
+					<a href="#"><img width="398" height="600" src="images/1443330_52483855.jpg_effected-398x600.jpg" class="attachment-medium" alt="1443330_52483855.jpg_effected"></a>
+				</dt></dl><dl class="gallery-item">
+				<dt class="gallery-icon landscape">
+					<a href="#"><img width="600" height="398" src="images/1446256_76080445.jpg_effected-600x398.jpg" class="attachment-medium" alt="1446256_76080445.jpg_effected"></a>
+				</dt></dl><br style="clear: both">
+			</div>
+		</div><!-- .entry-content -->
+	</article>
+
+</section>
+
+<section>
+	<article id="post-4" class="post-4 post type-post status-publish format-standard hentry category-uncategorized">
+		<header class="entry-header">
+			<h1 class="entry-title">Multiple Slideshows, #2</h1>
+		</header><!-- .entry-header -->
+		<div class="entry-content">
+			<div id="gallery-2" class="gallery galleryid-4 gallery-columns-2 gallery-size-medium"><dl class="gallery-item">
 				<dt class="gallery-icon landscape">
 					<a href="#"><img width="600" height="398" src="images/1385907_84565252.jpg_effected-600x398.jpg" class="attachment-medium" alt="Caption example. Lorem ipsum."></a>
 				</dt>
@@ -106,38 +147,42 @@ add_filter( "shortcode_atts_gallery", "bx_dynamix_gallery_atts", 10, 3 );
 
 <section>
 
-<h1>BX Dynamix v1</h1>
+	<h1>BX Dynamix v1</h1>
 
-<p>This plugin to <a href="http://bxslider.com/" target="_blank">bxSlider</a> hooks (frontend) into built in gallery function in Wordpress and makes it a slideshow.</p>
+	<p>This plugin to <a href="http://bxslider.com/" target="_blank">bxSlider</a> hooks (frontend) into built in gallery function in Wordpress and makes it a slideshow.</p>
 
-<p>BX Dynamix check for the tallest image and sets the viewport to that height.</p>
+	<p>BX Dynamix check for the tallest image and sets the viewport to that height.</p>
 
-<h2>Wordpress Filter for larger images in gallery</h2>
-<p>For the Wordpress gallery function to output larger images in gallery you need to add this code to functions.php</p>
+	<h2>Wordpress Filter for larger images in gallery</h2>
+	<p>For the Wordpress gallery function to output larger images in gallery you need to add this code to functions.php</p>
 
-<div style="background: #f4f4f4; padding: 30px;">
-<pre>
-function bx_dynamix_gallery_atts( $out, $pairs, $atts ) {
+	<div style="background: #f4f4f4; padding: 30px;">
+	<pre>
+	function bx_dynamix_gallery_atts( $out, $pairs, $atts ) {
 
-    $atts = shortcode_atts( array(
-        "columns" => "2",
-        "size" => "medium",
-         ), $atts );
+	    $atts = shortcode_atts( array(
+	        "columns" => "2",
+	        "size" => "medium",
+	         ), $atts );
 
-    $out["columns"] = $atts["columns"];
-    $out["size"] = $atts["size"];
+	    $out["columns"] = $atts["columns"];
+	    $out["size"] = $atts["size"];
 
-    return $out;
+	    return $out;
 
-}
-add_filter( "shortcode_atts_gallery", "bx_dynamix_gallery_atts", 10, 3 );
-</pre>
-</div>
+	}
+	add_filter( "shortcode_atts_gallery", "bx_dynamix_gallery_atts", 10, 3 );
+	</pre>
+	</div>
 
 </section>
 
+<section style="background: #f4f4f4; padding: 30px; margin-top: 30px;">
+	<p><a href="https://github.com/Kidkie/bx-dynamix">Download BX Dynamix</a></p>
+</section>
+
 <script type="text/javascript" src="js/jquery-2.1.1.min.js?ver=2.1.1"></script>
-<script type="text/javascript" src="js/jquery.bxdynamix.js?ver=1"></script>
+<script type="text/javascript" src="js/jquery.bxdynamix.js?ver=1.2"></script>
 
 <!--
 
