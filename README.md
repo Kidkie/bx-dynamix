@@ -1,5 +1,5 @@
-#BX Dynamix Version 1.0 (BXD)
-####Stockholm, August 30 2014
+#BX Dynamix Version 1.2 (BXD)
+####Stockholm, September 3 2014
 
 Hooks into built in gallery function in Wordpress and replaces it with a slideshow.
 The slideshow is built with bxSlider (http://bxslider.com/) from Steven Wanderski.
@@ -18,14 +18,25 @@ This project was created to make it easier for users to produce slideshows on th
 
 ==========
 
+##Version history
+
+###Version 1.2
+
+* Added support for multiple slideshows per page.
+
 ###Version 1.0
 
- * BX Dynamix v1 only works with one slideshow per page/post
- * Multiple slideshows are planned to be included in future versions
- * If you install BXD on your Wordpress site it will replace the gallery function with a slideshow. Ie. default gallery functionality will stop working.
- * This version adds the image as a background of every slide item as a default. This way of doing it removes the awesome responsive feature of bxSlider. I decided to do this as I wanted the pictures to center in the viewport, both vertically and horizontally.
- * (Updated) Ways of displaying slide content can be changed by removing code marked with Option 2. Option 1 adds the image as a img tag.
+* BX Dynamix v1.0 only worked with one slideshow per page/post
 
+
+==========
+
+##FYI
+
+* If you install BXD on your Wordpress site it will replace the gallery function with a slideshow. Ie. default gallery functionality will stop working.
+* By default BXD adds the image as a background of every slide item as a default. This way of doing it removes the awesome responsivness of bxSlider. I decided to do this as I wanted the pictures to center in the viewport, both vertically and horizontally.
+* (Updated) Ways of displaying slide content can be handled by commenting away code marked with Option 2. Option 1 adds the image as a img tag.
+* 
 ==========
 
 ###How to handle Wordpress default gallery option
@@ -47,6 +58,7 @@ As Wordpress only displays thumbnails in Gallery mode you have to add a filter t
       }
       add_filter( "shortcode_atts_gallery", "bx_dynamix_gallery_atts", 10, 3 );
       
+
 ==========
 
 ##The demo
