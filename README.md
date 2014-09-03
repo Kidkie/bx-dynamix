@@ -36,7 +36,7 @@ This project was created to make it easier for users to produce slideshows on th
 * If you install BXD on your Wordpress site it will replace the gallery function with a slideshow. Ie. default gallery functionality will stop working.
 * By default BXD adds the image as a background of every slide item as a default. This way of doing it removes the awesome responsivness of bxSlider. I decided to do this as I wanted the pictures to center in the viewport, both vertically and horizontally.
 * (Updated) Ways of displaying slide content can be handled by commenting away code marked with Option 2. Option 1 adds the image as a img tag.
-* 
+
 ==========
 
 ###How to handle Wordpress default gallery option
